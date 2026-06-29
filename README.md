@@ -1,16 +1,85 @@
-# React + Vite
+# 🎯 Queue Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React-based queue management app to efficiently manage customers and their service status in real time.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat&logo=javascript) ![CSS3](https://img.shields.io/badge/CSS3-Custom-1572B6?style=flat&logo=css3)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+[View Live →](https://your-vercel-link.vercel.app)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Preview
 
-## Expanding the Oxlint configuration
+![Queue Management System Preview](./preview.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## ✨ Features
+
+- **Add customers** to the queue with name and service type
+- **Track status** — waiting → serving → complete
+- **Dynamic buttons** — button label changes based on current status
+- **Delete customers** from the queue
+- **Form resets** automatically after adding a customer
+- Clean dark UI
+
+---
+
+## 🛠️ Built With
+
+- React.js
+- useState Hook
+- Props & Lifting State Up
+- Component-based architecture
+- Custom CSS
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── App.jsx          # Main component — state & logic
+├── App.css          # Global styles
+└── Component/
+    ├── Form.jsx     # Add customer form
+    └── Queue.jsx    # Customer queue list
+```
+
+---
+
+## 🧠 Concepts Practiced
+
+- `useState` for state management
+- Lifting state up (child → parent communication)
+- Callback props (passing functions as props)
+- Array methods — `map`, `filter`, spread operator
+- Controlled inputs
+- Conditional rendering
+
+---
+
+## ⚙️ Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/ravimali-dev/Queue-Management-System.git
+
+# Navigate to project
+cd Queue-Management-System
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+---
+
+## 👨‍💻 Author
+
+**Ravi Mali**
+- Portfolio: [ravimali.vercel.app](https://ravimali.vercel.app)
+- GitHub: [@ravimali-dev](https://github.com/ravimali-dev)
+- LinkedIn: [linkedin.com/in/ravi-mali-dev](https://linkedin.com/in/ravi-mali-dev)
