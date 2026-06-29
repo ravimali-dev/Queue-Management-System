@@ -16,7 +16,7 @@ function Queue({customerData, statusChange,deletCustomor}) {
           <h4>{ customer.service}</h4>
           <p>{customer.status}</p>
           <button onClick={() => statusChange(customer.id) }>{customer.status === "waiting" ? "Serve" : "Complete"}</button>
-          <button onClick = {() => deletCustomor(customer.id)}  >Delet</button>
+          <button onClick = {() => deletCustomor(customer.id)}  >Delete</button>
         </div>
         )
         
