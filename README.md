@@ -6,7 +6,7 @@ A React-based queue management app to efficiently manage customers and their ser
 
 ## 🚀 Live Demo
 
-[View Live →](queue-management-system-black.vercel.app)
+[View Live →](https://queue-management-system-black.vercel.app/)
 
 ## 📸 Preview
 
